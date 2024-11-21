@@ -11,6 +11,7 @@ function update() {
     // Play the 'tick' sound
     tick.play();
 }
+document.getElementById('count').textContent = count;
 count++;
 if (count > 4) {
     count = 1;
